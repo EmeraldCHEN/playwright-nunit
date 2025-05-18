@@ -46,6 +46,10 @@ await page.locator('[data-testid="submit-button"]').waitFor({ state: 'visible' }
 
 - [Test generator](https://playwright.dev/dotnet/docs/codegen)
 
+- [Page object models](https://playwright.dev/dotnet/docs/pom)
+
+- [API testing](https://playwright.dev/dotnet/docs/api-testing)
+
 - [Best Practices](https://playwright.dev/docs/best-practices)
 
 - [Dynamics 365 sample automation tests](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/Testing/Automation/Playwright/Samples/automation)
