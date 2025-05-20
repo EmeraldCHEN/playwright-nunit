@@ -4,28 +4,27 @@
 
 PLAYWRIGHT-NUNIT/
 
-├── config/                # contains sensitive config data
+| ── config/                # contains sensitive config data
 
-│   └── credentials.json   
+│    └── credentials.json   
 
-├── pages/         # contains Page Object Models (POMs) (encapsulate UI logic)
+| ── pages/         # contains Page Object Models (POMs) (encapsulate UI logic)
+ 
+│    └── home-page.cs
 
-│   └── home-page.cs
+│    └── login-page.cs   
 
-│   └── login-page.cs   
+| ── tests/         # Actual NUnit test classes
 
-├── tests/         # Actual NUnit test classes
+│    └── home-page.cs
 
-│   └── home-page.cs
+│    └── login-page.cs  
 
-│   └── login-page.cs  
+| ── utilitis/      # contains shared test utilities: BaseTest, helpers, etc.
 
-├── utilitis/      # contains shared test utilities: BaseTest, helpers, etc.
+│    └── base-test.cs
 
-│   └── base-test.cs
-
-
-└── playwright-nunit.csproj
+| ── playwright-nunit.csproj
 
 ## Playwright UI Testing Best Practices
 
