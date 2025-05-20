@@ -7,14 +7,9 @@ namespace PlaywrightDemo.Utils
     public class BaseTest
     {
         protected IPlaywright playwright;
-
         protected IBrowser browser;
-
         protected IBrowserContext context;
-
         protected IPage page;
-
- 
 
         [SetUp]
 

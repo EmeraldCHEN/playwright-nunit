@@ -1,3 +1,6 @@
-# Playwright for .NET
+# Build artifacts
 bin/
 obj/
+
+# Secrets / Credentials
+config/credentials.json
