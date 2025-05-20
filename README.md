@@ -26,6 +26,12 @@ PLAYWRIGHT-NUNIT/
 
 | ── playwright-nunit.csproj
 
+- Install `Newtonsoft.Json` (or any JSON library of your choice) to parse `credentials.json`
+
+```bash
+dotnet add package Newtonsoft.Json
+```
+
 
 ##
 ## Playwright UI Testing Best Practices
