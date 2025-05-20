@@ -32,6 +32,11 @@ PLAYWRIGHT-NUNIT/
 dotnet add package Newtonsoft.Json
 ```
 
+- If you've added some file to your `.gitignore` file but it's still showing up in your Git repository, that means it has already been tracked by Git. `.gitignore` will only prevent new files from being tracked, not files that have already been added to the repository. You can remove the file from Git's tracking without deleting it from your local filesystem by using the following command:
+
+```bash
+git rm --cached [file-path]
+```
 
 ##
 ## Playwright UI Testing Best Practices
