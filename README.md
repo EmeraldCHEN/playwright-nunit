@@ -1,5 +1,31 @@
 # playwright-nunit
 
+## Summary Project Structure with Purpose
+
+PLAYWRIGHT-NUNIT/
+
+├── config/                # contains sensitive config data
+
+│   └── credentials.json   
+
+├── pages/         # contains Page Object Models (POMs) (encapsulate UI logic)
+
+│   └── home-page.cs
+
+│   └── login-page.cs   
+
+├── tests/         # Actual NUnit test classes
+
+│   └── home-page.cs
+
+│   └── login-page.cs  
+
+├── utilitis/      # contains shared test utilities: BaseTest, helpers, etc.
+
+│   └── base-test.cs
+
+
+└── playwright-nunit.csproj
 
 ## Playwright UI Testing Best Practices
 
