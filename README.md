@@ -26,6 +26,8 @@ PLAYWRIGHT-NUNIT/
 
 | ── playwright-nunit.csproj
 
+
+##
 ## Playwright UI Testing Best Practices
 
 When writing Playwright tests, avoiding test failures due to selector changes is crucial. Here are some best practices:
