@@ -28,6 +28,8 @@ PLAYWRIGHT-NUNIT/
 
 | ── playwright-nunit.csproj
 
+## Follow the steps to install the necessary Playwright dependencies in https://playwright.dev/dotnet/docs/intro#introduction
+
 - Install `Newtonsoft.Json` (or any JSON library of your choice) to parse `credentials.json`
 
 ```bash
@@ -40,9 +42,40 @@ dotnet add package Newtonsoft.Json
 git rm --cached [file-path]
 ```
 
+🚀 Getting Started
+
+1. Clone the repository:
+
+```bash
+git clone [repo-url]
+cd playwright-nunit
+```
+
+2. Install dependencies:
+
+```bash
+dotnet add package Microsoft.Playwright.NUnit
+```
+
+3. Build the project:
+
+```bash
+dotnet build
+```
+
+4. Install browsers:
+
+```bash
+pwsh bin/Debug/netX/playwright.ps1 install
+```
 
 
-## References
+🧩 Utilize Page Object Models (POMs)
+Organize the test code by implementing Page Object Models. This design pattern helps in reducing code duplication and improving test maintenance. 
+Ensure that these models encapsulate all interactions with the UI elements on their respective pages.
+
+
+📚 Resources
 
 - [Playwright for .NET](https://playwright.dev/dotnet/docs/intro)
 
