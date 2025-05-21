@@ -1,4 +1,4 @@
-Visual Studio VS Visual Studio Code (VS Code) 
+## Visual Studio VS Visual Studio Code (VS Code) 
 
 They are both development tools from Microsoft, but they serve different purposes:
 
