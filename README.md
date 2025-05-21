@@ -28,19 +28,6 @@ PLAYWRIGHT-NUNIT/
 
 | ── playwright-nunit.csproj
 
-## Follow the steps to install the necessary Playwright dependencies in https://playwright.dev/dotnet/docs/intro#introduction
-
-- Install `Newtonsoft.Json` (or any JSON library of your choice) to parse `credentials.json`
-
-```bash
-dotnet add package Newtonsoft.Json
-```
-
-- If a file listed in `.gitignore` still appears in your Git repository, it's because Git has already started tracking it. `.gitignore` prevents new files from being tracked but does not untrack existing ones. To stop Git from tracking the file without deleting it from your local system, use this command:
-
-```bash
-git rm --cached [file-path]
-```
 
 🚀 Getting Started
 
@@ -73,6 +60,20 @@ pwsh bin/Debug/netX/playwright.ps1 install
 🧩 Utilize Page Object Models (POMs)
 Organize the test code by implementing Page Object Models. This design pattern helps in reducing code duplication and improving test maintenance. 
 Ensure that these models encapsulate all interactions with the UI elements on their respective pages.
+
+✅ To find more details, follow the steps from [here](https://playwright.dev/dotnet/docs/intro#introduction) to install the necessary Playwright dependencies
+
+- Install `Newtonsoft.Json` (or any JSON library of your choice) to parse `credentials.json`
+
+```bash
+dotnet add package Newtonsoft.Json
+```
+
+- If a file listed in `.gitignore` still appears in your Git repository, it's because Git has already started tracking it. `.gitignore` prevents new files from being tracked but does not untrack existing ones. To stop Git from tracking the file without deleting it from your local system, use this command:
+
+```bash
+git rm --cached [file-path]
+```
 
 
 📚 Resources
