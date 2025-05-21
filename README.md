@@ -58,6 +58,7 @@ pwsh bin/Debug/netX/playwright.ps1 install
 
 
 🧩 Utilize Page Object Models (POMs)
+
 Organize the test code by implementing Page Object Models. This design pattern helps in reducing code duplication and improving test maintenance. 
 Ensure that these models encapsulate all interactions with the UI elements on their respective pages.
 
