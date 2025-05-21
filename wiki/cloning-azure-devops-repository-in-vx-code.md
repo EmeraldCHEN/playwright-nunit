@@ -1,1 +1,0 @@
-Watch this: [Clone Azure DevOps Repository in VSCode](https://www.bing.com/videos/riverview/relatedvideo?&q=%2313+clone+azure+devops+repo+in+vs+code&&mid=448007F2EDFCD0F42364448007F2EDFCD0F42364&&FORM=VRDGAR)
