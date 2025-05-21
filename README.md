@@ -34,7 +34,7 @@ PLAYWRIGHT-NUNIT/
 dotnet add package Newtonsoft.Json
 ```
 
-- If you've added some file to your `.gitignore` file but it's still showing up in your Git repository, that means it has already been tracked by Git. `.gitignore` will only prevent new files from being tracked, not files that have already been added to the repository. You can remove the file from Git's tracking without deleting it from your local filesystem by using the following command:
+- If a file listed in `.gitignore` still appears in your Git repository, it's because Git has already started tracking it. `.gitignore` prevents new files from being tracked but does not untrack existing ones. To stop Git from tracking the file without deleting it from your local system, use this command:
 
 ```bash
 git rm --cached [file-path]
