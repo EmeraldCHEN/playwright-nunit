@@ -53,7 +53,14 @@ dotnet build
 4. Install browsers:
 
 ```bash
-pwsh bin/Debug/net9.0/playwright.ps1 install --with-deps
+pwsh ./bin/Debug/net9.0/playwright.ps1 install --with-deps
+
+```
+
+or 
+
+```bash
+pwsh .\bin\Debug\net9.0\playwright.ps1 install --with-deps
 
 ```
 
