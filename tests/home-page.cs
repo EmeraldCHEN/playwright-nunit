@@ -1,6 +1,5 @@
 ﻿using System.Text.RegularExpressions;
 using Microsoft.Playwright.NUnit;
-
 using EcommerceApp.Tests.Models;
 
 [Parallelizable(ParallelScope.Self)]

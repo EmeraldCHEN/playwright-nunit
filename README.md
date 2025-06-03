@@ -58,10 +58,16 @@ pwsh bin/Debug/net9.0/playwright.ps1 install --with-deps
 ```
 
 
-🧩 Utilize Page Object Models (POMs)
+🧩 Utilize Page Object Models (POMs) and Benefits of This Approach
 
 Organize the test code by implementing Page Object Models. This design pattern helps in reducing code duplication and improving test maintenance. 
 Ensure that these models encapsulate all interactions with the UI elements on their respective pages.
+
+- Reusability: The page objects in the `Pages` folder can be reused across multiple tests.
+
+- Readability: Test methods read more like user actions.
+
+- Maintainability: Locator changes only require updates in one place.
 
 ✅ To find more details, follow the steps from [here](https://playwright.dev/dotnet/docs/intro#introduction) to install the necessary Playwright dependencies
 
