@@ -1,0 +1,33 @@
+name: Playwright NUnit Tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Install dependencies
+        run: dotnet restore
+
+      - name: Build the project
+        run: dotnet build --configuration Release
+
+      - name: Install Playwright browsers
+        run: |
+          dotnet tool restore
+          dotnet playwright install --with-deps
+
+      - name: Run tests
+        run: dotnet test --configuration Release
