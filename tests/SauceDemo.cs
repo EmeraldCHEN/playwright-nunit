@@ -1,9 +1,9 @@
 using Microsoft.Playwright;
 using NUnit.Framework;
-using SaucedemoTests.Pages;
+using playwright_nunit.pages;
 using System.Threading.Tasks;
 
-namespace SaucedemoTests
+namespace Splaywright_nunit.tests
 {
     public class SignInTests
     {

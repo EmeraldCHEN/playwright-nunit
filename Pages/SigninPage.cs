@@ -1,7 +1,7 @@
 using Microsoft.Playwright;
 using System.Threading.Tasks;
 
-namespace SaucedemoTests.Pages
+namespace playwright_nunit.pages
 {
     public class SignInPage
     {
